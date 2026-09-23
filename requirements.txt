@@ -1,0 +1,11 @@
+# Install with:  pip install -r requirements.txt   (Python 3.10+; pins chosen as the newest releases that still ship 3.10 wheels)
+pyvisa==1.16.2
+pyvisa-py==0.8.1          # pure-Python VISA backend so TCPIP0::...::INSTR works without NI-VISA
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.6.0
+matplotlib==3.10.9
+opencv-python==4.14.0.94  # 4.x kept on purpose: legacy camera_scpi code uses the OpenCV 4 API
+termcolor==3.3.0
